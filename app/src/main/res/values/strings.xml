@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PersonalNotes</string>
+    <string name="please_wait">Please wait ...</string>
+    <string name="load_data_succes">Download data succesfull</string>
+    <string name="ok">OK</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
+    <string name="remove_success">Note remove succesfull</string>
+    <string name="add_success">Add new note succesfull</string>
+    <string name="save">SAVE</string>
+    <string name="put_new_note">Put new note</string>
+    <string name="note_detail">Note detail</string>
+    <string name="note_list">Note list</string>
+</resources>

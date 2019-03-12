@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/bg_dialog"
+              android:padding="@dimen/spacing_high"
+              android:minWidth="@dimen/min_width_dialog"
+              android:gravity="center"
+              android:orientation="vertical">
+    <TextView
+            android:layout_marginBottom="@dimen/spacing_medium"
+            style="@style/contentText"
+            android:textSize="@dimen/text_title"
+            android:text="@string/put_new_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+    <EditText
+            android:background="@color/colorPrimary"
+            android:padding="@dimen/spacing_low"
+            android:id="@+id/editext_add_dialog_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:layout_marginTop="@dimen/spacing_low"
+            android:id="@+id/button_add_dialog_save"
+            android:textColor="@color/colorAccent"
+            android:text="@string/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
